@@ -1,34 +1,33 @@
 # Admin i NoQ
-Grunden finns i denna video: https://www.youtube.com/watch?v=XqkqbsdtoMI
+FÖrsta versionen kommer från denna video: https://www.youtube.com/watch?v=XqkqbsdtoMI
 
-## Installation
-Allt gås igenom i videon, men här är alla kommandon:
+## Installation av python och bibliotek
+All installation nämns i videon och detta är en sammanfattning med alla kommandon:
 
-1. Installera python
+1. Installera python och verifiera att versionen är minst 3.10.*:
 ```
     python --version eller python3 --version på Mac
-    
-```
+```    
+
 2. Installera nödvändiga bibliotek
 ```
     pip install django django-ninja django-extensions
 ```
-3. Skapa databas (valfritt)
+3. Skapa databas - om det saknas databas
 ```
     Navigera till biblioteket som innehåller manage.py
     python manage.py makemigrations
     python manage.py migrate
 ```
-
 ```
-    Skapa superuser admin
+    Skapa admin user
     python manage.py createsuperuser
 ```
-4. Starta webbservern
+4. Starta webbservern 
 ```
     python manage.py runserver
 ```
-5. Ange http://127.0.0.1:8000/admin i webbläsaren
+5. Surfa till http://127.0.0.1:8000/admin 
 
 ## Översikt admin UI
 ![Alt text](admin.png)
@@ -36,7 +35,7 @@ Allt gås igenom i videon, men här är alla kommandon:
 ![Alt text](hosts.png)
 
 ## Programkod
-Django framework innehåller så mycket standardfunktionalitet. Detta är i stort sett allt som krävs för hosts-tabellen ovan.
+Django framework innehåller så mycket standardfunktionalitet. Denna kod är i stort sett allt som krävs för hosts-tabellen ovan.
 
 ![Alt text](programkod.png)
 
