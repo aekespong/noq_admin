@@ -30,13 +30,13 @@ All installation nämns i videon. Detta är en sammanfattning med alla kommandon
 5. Surfa till http://127.0.0.1:8000/admin 
 
 ## Översikt admin UI
-![Alt text](admin.png)
+![Alt text](docs/admin.png)
 ## Detaljbild hosts
-![Alt text](hosts.png)
+![Alt text](docs/hosts.png)
 
 ## Programkod
 Django framework innehåller så mycket standardfunktionalitet. Denna kod är i stort sett allt som krävs för hosts-tabellen ovan.
 
-![Alt text](programkod.png)
+![Alt text](docs/programkod.png)
 
 För mer info se Django tutorial: https://docs.djangoproject.com/en/5.0/intro/tutorial01/
