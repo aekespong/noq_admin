@@ -1,5 +1,5 @@
 # Admin i NoQ
-FÖrsta versionen kommer från denna video: https://www.youtube.com/watch?v=XqkqbsdtoMI
+Första versionen av lösningen kommer från denna video: https://www.youtube.com/watch?v=XqkqbsdtoMI
 
 ## Installation av python och bibliotek
 All installation nämns i videon. Detta är en sammanfattning med alla kommandon:
