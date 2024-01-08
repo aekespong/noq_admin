@@ -2,7 +2,7 @@
 FÖrsta versionen kommer från denna video: https://www.youtube.com/watch?v=XqkqbsdtoMI
 
 ## Installation av python och bibliotek
-All installation nämns i videon och detta är en sammanfattning med alla kommandon:
+All installation nämns i videon. Detta är en sammanfattning med alla kommandon:
 
 1. Installera python och verifiera att versionen är minst 3.10.*:
 ```
