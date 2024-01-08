@@ -15,12 +15,12 @@ All installation nämns i videon. Detta är en sammanfattning med alla kommandon
 ```
 3. Skapa databas - om det saknas databas
 ```
-    Navigera till biblioteket som innehåller manage.py
+    # Navigera till biblioteket som innehåller manage.py
     python manage.py makemigrations
     python manage.py migrate
 ```
 ```
-    Skapa admin user
+    # Skapa admin user
     python manage.py createsuperuser
 ```
 4. Starta webbservern 
